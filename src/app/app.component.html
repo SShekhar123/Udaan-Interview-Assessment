@@ -1,0 +1,35 @@
+<div class="toolbar" role="banner">
+    <h2>Car Crash App</h2>
+    
+    <label>
+      <input type="text" placeholder="Type of search">
+    </label>
+</div>
+<div class="navbar">
+  <li></li>
+</div>
+
+<div class="fiction-books flex-container">
+  <ng-container *ngFor="let name of cards; index as i;">
+    <div style="display: flex !important;" class="flex-item widthi">
+      {{name}}
+    </div>
+  </ng-container>
+<!--sample ui created-->
+  <ng-container>
+    <div style="display: flex !important; padding: 15px;" class="flex-item widthi">
+      
+      <div class="content1">
+        <p>factor_vehicle_1</p>
+        <p>factor_vehicle_2</p>
+        <p> 2 months</p>
+      </div>
+
+      <div class="content2">
+        <p> name.crash_date</p>
+        <p> name.crash_time</p>
+      </div>
+      
+    </div>
+  </ng-container>
+</div>
